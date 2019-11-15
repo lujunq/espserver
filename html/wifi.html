@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script type='text/javascript' src='script.js'></script>
+		<meta name="viewport" content="width=device-width">
+		<title>BASIC ESP SERVER: WIFI SETTINGS</title>
+	</head>
+	<body class="bgwhite">
+		<h1>WIFI SETTINGS</h1>
+		<p>By deafult, the BASIC ESP SERVER starts as an access point named <em>espserver</em> with the password <em>123456789</em>. After the first connection you may change this setting using the form below. You can also hold down the reset button for some time to return to the access point mode. After setting the wifi behaviour, the curcuit is automatically restarted. You can always check out the mode leds to see how the wifi is being handled by the server.</p>
+		<hr />
+		<p>
+			<form method="post" id="formap">
+				<input type="hidden" name="ac" value="ap" />
+				<input class="bt" type="submit" value="USE AS AN ACCESS POINT" />
+			</form>
+		</p>
+		<hr />
+		<p>
+			<form method="post" id="formsta">
+				<input type="hidden" name="ac" value="sta" />
+				<input class="txinput" type="text" name="ssid" placeholder="ROUTER SSID" required /><br />
+				<input class="txinput" type="text" name="password" placeholder="ROUTER PASSWORD" required /><br />
+				<input class="bt" type="submit" value="CONNECT TO A ROUTER" />
+			</form>
+		</p>
+	</body>
+</html>

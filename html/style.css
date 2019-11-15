@@ -1,0 +1,47 @@
+body {
+	line-height: 150%;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000000;
+}
+h1 {
+	font-weight: bold;
+	font-size: 16px;
+}
+.bgwhite {
+	background-color: #FFFFFF;
+}
+.bgred {
+	background-color: #660000;
+}
+.bgblue {
+	background-color: #000066;
+}
+.bt {
+	color: #FFF;
+	background-color: #060;
+	border: none;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 2px 0 2px 0;
+	width: 200px;
+}
+.txinput {
+	padding: 3px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	margin: 2px 0 2px 0;
+	width: 200px;
+}
+#osimg {
+	cursor: pointer;
+	border: none;
+	width: 100px;
+	height: auto;
+}
